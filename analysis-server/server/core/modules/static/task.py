@@ -1,3 +1,0 @@
-class Task:
-    TASK_TIME_SECOND = 6000
-    TASK_DAY_DELTA = 6
