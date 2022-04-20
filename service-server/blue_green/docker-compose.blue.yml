@@ -1,8 +1,0 @@
-version: "3.9"
-services:
-  spring:
-    image: iamhge/ssoda-service-server:latest
-    platform: linux/amd64
-    ports:
-      - 8082:8080
-    container_name: spring_blue
