@@ -1,2 +1,0 @@
-from .random.random_calculator import RewardRandomCalculator
-from .follow.follow_calculator import RewardFollowCalculator
