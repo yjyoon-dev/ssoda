@@ -1,100 +1,181 @@
-<div align="center">
+![title](https://user-images.githubusercontent.com/72238126/145432713-d5a24db0-215b-4033-b18b-58c420aa35b2.png)
 
-![introduction](https://user-images.githubusercontent.com/72238126/149876994-db1df699-1903-4299-9adf-b40ad1aa7335.png)
+# SSODA
 
-### **SW 마에스트로 12기 로켓단 팀 SSODA**
-
-</div>
-
-<br>
-
-# 목차
-
-- [소개](#소개)
-- [기획](#기획)
-- [서비스](#서비스)
-- [개발](#개발)
-- [팀원](#팀원)
-
-<br>
-
-# 소개
-
-![main](https://user-images.githubusercontent.com/72238126/149877004-faf8efe0-3ccd-462a-8a29-6c5eaa930d27.png)
-
-<h3 align="center">
-
-> SSODA는 소상공인을 위한 SNS 이벤트 마케팅 매니저입니다.
-
-</h3>
-
-<br>
-
-SSODA는 그동안 소상공인들이 오프라인에서 수동으로 진행하던 SNS 해시태그 이벤트를 이벤트 등록부터 참여까지 온라인으로 진행시켜주고, 이전까지 오프라인으로 진행하던 탓에 측정할 수 없었던 정밀한 이벤트 마케팅 성과에 대한 보고서를 소상공인에게 제공하는 서비스입니다.
-
-<br>
-
-# 기획
-
-![1](https://user-images.githubusercontent.com/72238126/149877045-f004c1fa-68a8-4eaf-840d-9a35df1f59a9.png)
-
-현재 SNS 해시태그 이벤트는 주변에서 흔히 찾아볼 수 있습니다. 실제로 우리나라 국민 중 89.3%가 SNS 를 사용하고 있고, 그 중에서 해시태그를 가장 빈도있게 사용하는 인스타그램의 사용자는 1,885만명에 달합니다. 그에 따라 소상공인들은 SNS를 이용한 마케팅을 진행하였고 지금의 SNS 해시태그 이벤트가 되었습니다.
-
-<br>
-
-![2](https://user-images.githubusercontent.com/72238126/149877027-db615404-4a68-47a6-9896-8a6d398ed339.png)
-
-SNS 해시태그 이벤트에는 여러 장점들이 있습니다. 대표적으로는 많이 진행하고 있다는 점과 타 마케팅 수단에 비해 저렴하다는 것, 그리고 이벤트의 형태가 정형화되어있기 때문에 따라하기 쉽다는 것입니다.
-
-<br>
-
-![3](https://user-images.githubusercontent.com/72238126/149877037-5349eeeb-1c14-4c59-82ce-7d6a745de52e.png)
-
-하지만 이러한 SNS 해시태그 이벤트에도 단점이 있습니다. 우선 이벤트를 시작하려면 이벤트 팜플렛 등을 대행 업체를 통해 제작 의뢰를 맡겨야 하며, 소상공인들이 직접 여러 SNS에 대한 지식을 갖추고 있어야 한다는 점입니다. 그리고 이벤트 참여 과정에서 이벤트 참여자의 게시글을 일일이 검사해야 한다는 번거로움도 있습니다. 게다가 소상공인들은 SNS 해시태그 이벤트를 통한 마케팅 성과를 제공받을 수 없었습니다.
-
-<br>
-
-![4](https://user-images.githubusercontent.com/72238126/149877050-17ee62c1-644b-48e1-aede-bf56f36ea00f.png)
-
-이러한 문제점들을 해결하기 위해 저희는 쏘다를 기획하였습니다. 쏘다는 소상공인들이 SNS 해시태그 이벤트를 쉽게 시작할 수 있도록 돕고, 이벤트 참여 과정을 자동화 시키며 SNS 이벤트 마케팅에 대한 성과를 측정하여 소상공인들에게 통계 형태로 제공할 것입니다.
-
-<br>
-
-# 서비스
-
-### 서비스 흐름
-![7](https://user-images.githubusercontent.com/72238126/149877056-8818081a-abc9-4217-adae-6ff7bee6475f.png)
+SW 마에스트로 12기 과정에서 로켓단🚀 팀이 개발한 SNS 해시태그 이벤트 자동화 관리 서비스 **쏘다의 모바일앱 개발과 웹 프론트엔드 개발, 그리고 전체적인 UI/UX 디자인**을 맡았습니다. 쏘다는 그동안 오프라인 매장에서 진행되던 SNS 해시태그 이벤트의 생성과 참여 과정을 온라인에서 자동화시키고, 사장님께 SNS 이벤트 마케팅 성과를 측정 및 예측하여 지표로 전달하는 서비스입니다.
 
 <br>
 
 # 개발
 
-- 시스템 구성도
-![system](https://user-images.githubusercontent.com/72238126/149877065-005d9357-cb61-4681-9080-a124d74d846a.png)
+### 모바일 앱(Android & iOS)
+
+- `Dart` - 2.13.4
+- `Flutter` - 2.2.3
+
+### 웹페이지
+
+- `Dart` - 2.13.4
+- `Flutter` - 2.2.3
 
 <br>
 
-- 피지컬 아키텍쳐
-![architecture](https://user-images.githubusercontent.com/72238126/149877067-ba25d781-1fe2-42ad-ad50-69b5c056adf5.png)
+## 기능
+
+### Mobile Application
+
+- 가게 정보 등록/수정/삭제
+- 가게 별 SNS 이벤트 등록/수정/삭제
+- SNS 이벤트 별 이벤트 홍보물 템플릿 자동 제작 및 저장
+- 가게 별 마케팅 성과 요약 보고서 제공
+    - 게시글 노출 객단가, 누적 이벤트 참여 수, 누적 게시글 좋아요 수
+- 이벤트 별 마케팅 성과 상세 보고서 제공
+    - 기간 별 게시글 노출 수, 이벤트 참여 수, 게시글 반응 수, 이벤트 상품 별 지출 금액
+- 전체 이벤트 랭킹 제공
+
+### Web Service
+
+- 앱에서 생성한 홍보물 템플릿에 포함된 QR Code 로 이벤트 별 참여 페이지 접속 가능
+- 가게 별 SNS 이벤트 리스트 확인
+- SNS 이벤트 상세 정보 확인
+- SNS 이벤트 필수 해시태그 클립보드 복사 기능 및 여러 SNS 딥링크 제공
+- SNS 게시글 URL 입력을 통해 이벤트 참여 및 상품 수령
+- 백엔드 서버로의 URL 전달을 통해 SNS 이벤트 마케팅 성과 측정 및 누적
+- 쏘다 서비스 소개 및 홍보 페이지 포함
 
 <br>
 
-- 배포 환경
-![cicd](https://user-images.githubusercontent.com/72238126/149877072-c55703ae-cc69-4f28-91e9-f0fa23822eaa.png)
+## 성과
+
+- Play Store **이벤트 부문 인기 앱/게임 10위권** 진입
+- **9곳의 매장**에서 실제로 이벤트를 진행하며 쏘다 서비스 이용
+- 오프라인 SNS 이벤트 관리 시스템 명칭 **특허 출원**
+- 쏘다 (SSODA) 브랜드 로고 **상표 출원**
+
+---
+
+<br>
+
+# UI
+
+### 홈 화면
+<p float="left">
+<img width="30%" src="https://user-images.githubusercontent.com/72238126/145433240-528b3ef0-84cc-46b6-b138-97e0164364e6.png">
+
+<br>
+
+### 로그인 & 가게 등록
+
+<p float="left">
+<img width="30%" src="https://user-images.githubusercontent.com/72238126/145432896-f98dc431-4a99-48e7-b159-1c4ea8c8e768.png">
+<img width="30%" src="https://user-images.githubusercontent.com/72238126/145432953-5c41d3a1-4748-4e1f-9db3-b92f10784af5.png">
+<img width="30%" src="https://user-images.githubusercontent.com/72238126/145432959-ce06a9b9-e50f-4411-bc6e-5909598f16f3.png">
+</p>
+
+<br>
+
+### 이벤트 등록
+
+<p float="left">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433327-8c4eeb7a-dcc9-4d16-9b20-9c274c32c43f.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433330-09e4eda5-e9b3-4693-a945-93774d23a1fd.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433333-4496dd0d-dfe3-4c90-a54e-d68847f8ad15.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433335-12016c5b-0d9d-45dc-9518-33dff4a7a1da.png">
+<img width="22%" src="(https://user-images.githubusercontent.com/72238126/145433341-77010281-0304-4941-9839-5132d0c7939e.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433341-77010281-0304-4941-9839-5132d0c7939e.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433343-5983cead-7ee5-46bc-ae9c-7f3eb177b552.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433348-3534f111-15fc-426f-9e85-236853b352bb.png">
+</p>
+
+<br>
+
+### 이벤트 확인 및 수정
+
+<p float="left">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433885-87876458-1972-4e7d-a3cb-4649d524a335.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433891-c1348df2-b4f6-417e-8856-3af5c0bf26a9.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433896-ef452d09-272f-4b0b-bd5e-b0b8e4b05a3f.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145433901-b59be30c-1aef-4c63-879f-17c747f4608f.png">
+</p>
+
+<br>
+
+### 마케팅 리포트
+
+<p float="left">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145434080-111a00d9-9d27-48d1-8ecc-8eb0aa1fa54e.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145434087-d6c64003-9987-4b88-874b-b8c9b67fe023.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145434187-ea9ebe9a-3bf4-43cd-a089-776b42a8a356.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145434190-27797835-2164-4ed4-86c9-4651e5346303.png">
+</p>
+
+<br>
+
+### 이벤트 참여
+
+<p float="left">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145434449-9f423ff7-c45c-4647-b11a-45438ad974ed.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145434395-646a085a-46d8-4179-8d99-d4dbd06bcb05.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145434399-83a84200-67bb-4d77-b739-dbe6bb351ed2.png">
+<img width="22%" src="https://user-images.githubusercontent.com/72238126/145434576-3e3eb540-1bd8-436f-bf8c-bc6892363d56.png">
+</p>
+
+<br>
+
+### 랭킹 & MY
+
+<p float="left">
+<img width="40%" src="https://user-images.githubusercontent.com/72238126/145434785-452e49f4-e288-460d-8c66-87b3c57fec4e.png">
+<img width="40%" src="https://user-images.githubusercontent.com/72238126/145434865-d6653480-6f46-4cf4-806d-7fa684a188e8.png">
+</p>
+
+<br>
+
+### 서비스 소개 웹페이지
+
+<p float="left">
+<img width="30%" src="https://user-images.githubusercontent.com/72238126/145435972-68176c76-78dd-429b-9810-e11d98f73703.png">
+<img width="30%" src="https://user-images.githubusercontent.com/72238126/145435988-c8bce79b-c5df-47bf-b682-660916e4e823.png">
+<img width="30%" src="https://user-images.githubusercontent.com/72238126/145435994-7f8260f3-e515-4e27-81ad-4d830f81e6af.png">
+<img width="30%" src="https://user-images.githubusercontent.com/72238126/145435999-9e860ee9-b308-44d5-a7b8-57aaf8af48af.png">
+<img width="30%" src="https://user-images.githubusercontent.com/72238126/145436003-90df9d9d-5557-4fb6-984c-1587db5d2797.png">
+<img width="60%" src="https://user-images.githubusercontent.com/72238126/145435983-0e146d77-5946-498d-bdf2-6199a47501e6.png">
+</p>
+
+<br>
+
+# SW 특허
+<p float="left">
+<img width="40%" src="https://user-images.githubusercontent.com/72238126/145436658-252c4c52-730a-4224-842c-cfadd66a11fc.png">
+<img width="40%" src="https://user-images.githubusercontent.com/72238126/145436778-221bf761-f4eb-4770-bbd7-d9e2615f0ead.png">
+</p>
+
+<br>
+
+# 개발 기간
+
+- 2021.06 - 개발 시작
+- 2021.09 - 1차 MVP 배포
+- 2021.11 - 2차 최종 배포
+- 2021.11 - 개발 종료
 
 <br>
 
 # 팀원
 
-- 송영모(팀장) : 프로젝트 기획, Analysis Server 개발
-- 임해경 : 프로젝트 기획, Service Server 개발
-- 윤여준 : 프로젝트 기획, App / Web 개발
+### [yjyoon.dev](https://github.com/yjyoon-dev)
+- `flutter`, `dart`, `front-end`, `mobile`, `web`, `ui/ux`
 
+### [mooyoung2309](https://github.com/mooyoung2309)
+-  `django`, `python`, `back-end`, `server`, `crawling`
 
- 
+### [iamhge](https://github.com/iamhge)
+- `spring`, `java`, `back-end`, `server`, `devops`
 
+<br>
 
+# 팀 레포지토리
 
+> https://github.com/SWM-ROCKETDAN/ssoda
 
-
-
+---
